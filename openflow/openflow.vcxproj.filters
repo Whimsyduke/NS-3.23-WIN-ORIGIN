@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="model">
+      <UniqueIdentifier>{9287c061-4ee0-4212-a9d4-da724491ebac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{68828a9c-a41c-4068-b315-57982c303eac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ns-3\src\openflow\helper\openflow-switch-helper.cc">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-3\src\openflow\model\openflow-interface.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-3\src\openflow\model\openflow-switch-net-device.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ns-3\src\openflow\helper\openflow-switch-helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ns-3\src\openflow\model\openflow-interface.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ns-3\src\openflow\model\openflow-switch-net-device.h">
+      <Filter>model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

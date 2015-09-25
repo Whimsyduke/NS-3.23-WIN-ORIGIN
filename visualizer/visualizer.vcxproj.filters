@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="model">
+      <UniqueIdentifier>{478db17e-7c98-4416-bd06-142a7494f1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visualizer">
+      <UniqueIdentifier>{88a5e5a0-bf0c-40d5-b84e-72d5463a3e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visualizer\plugins">
+      <UniqueIdentifier>{30c0e958-4d0b-4f96-a374-b0fc23c1c0b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ns-3\src\visualizer\visualizer\base.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\core.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\higcontainer.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\hud.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\ipython_view.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\svgitem.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\__init__.py">
+      <Filter>visualizer</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\interface_statistics.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\ipv4_routing_table.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\olsr.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\show_last_packets.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\wifi_intrastructure_link.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\pmtmgmp_information.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+    <None Include="..\ns-3\src\visualizer\visualizer\plugins\pmtmgmp_route_path.py">
+      <Filter>visualizer\plugins</Filter>
+    </None>
+  </ItemGroup>
+</Project>

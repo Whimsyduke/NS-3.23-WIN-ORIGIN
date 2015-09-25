@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="model">
+      <UniqueIdentifier>{f002c8e5-55b9-4c9f-9364-5419186d3a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{e8d622e7-cfce-489d-a2a1-990aac893ad9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ns-3\src\click\helper\click-internet-stack-helper.cc">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-3\src\click\model\ipv4-click-routing.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ns-3\src\click\model\ipv4-l3-click-protocol.cc">
+      <Filter>model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ns-3\src\click\helper\click-internet-stack-helper.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ns-3\src\click\model\ipv4-click-routing.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ns-3\src\click\model\ipv4-l3-click-protocol.h">
+      <Filter>model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
